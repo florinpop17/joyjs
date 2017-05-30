@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API endpoints for JoyJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Florin Pop",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jwt": "^0.2.0",
+    "mongoose": "^4.10.3",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0"
+  }
+}
